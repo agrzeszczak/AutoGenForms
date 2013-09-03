@@ -1,9 +1,3 @@
 /composer.lock
 /vendor/
-/src/AdminJavascriptGenerator.php
-/src/module.php
-/src/AdminFormGenerator.php
-/src/tables_dropdown.php
-/src/save_data.php
-/src/call_back.php
 /nbproject/
