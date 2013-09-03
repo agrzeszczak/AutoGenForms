@@ -1,0 +1,13 @@
+{
+    "name": "AutoGenForms",
+    "autoload": {
+        "psr-0": {
+            "AutoGenForms": "src"
+        }
+    },
+    "require-dev": {
+        "symfony/yaml": "v2.3.0",
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/dbunit": ">=1.2"
+    }
+}
