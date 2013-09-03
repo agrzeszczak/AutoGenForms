@@ -2,6 +2,8 @@
 An auto generating form system based off of the database tables.
 It does not correctly handle the saving of the data. Just the front end display of the information.
 
+This system is designed for direct access to databases by admins through a web interface.
+
 ## Warning
 This is still in development. Use at your own risk!
 
@@ -19,9 +21,11 @@ $table is the table name in the database we are looking for.
 $tablesToColumns is an array of the columns to show for forgein key relations.
 $exceptions is an array of the column names to hide.
 
+$url is the url for the javascript to the request from to get the data when you change the id column
+
     $form = new AutoGenForms\AdminForm($mysqli, $table,$tablesToColumns, $exceptions);
     echo $form->displayForm();
-    echo $form->javascript('someUrl');
+    echo $form->javascript('$url');
 
 ## TODOS
 - Template the output in displayForm().
