@@ -25,7 +25,7 @@ $url is the url for the javascript to the request from to get the data when you 
 
     $form = new AutoGenForms\AdminForm($mysqli, $table, $tablesToColumns, $exceptions);
     echo $form->displayForm();
-    echo $form->javascript('$url');
+    echo $form->javascript($url);
 
 ## TODOS
 - Template the output in displayForm().
