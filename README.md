@@ -23,7 +23,7 @@ $exceptions is an array of the column names to hide.
 
 $url is the url for the javascript to the request from to get the data when you change the id column
 
-    $form = new AutoGenForms\AdminForm($mysqli, $table,$tablesToColumns, $exceptions);
+    $form = new AutoGenForms\AdminForm($mysqli, $table, $tablesToColumns, $exceptions);
     echo $form->displayForm();
     echo $form->javascript('$url');
 
